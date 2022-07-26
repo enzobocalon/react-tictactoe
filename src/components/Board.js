@@ -8,7 +8,6 @@ const Board = forwardRef(({value, handleData, shouldReset}) => {
     const [player, setPlayer] = useState('')  
 
     const handleClick = (e) => {
-        console.log(value)
     if (values[value-1] === ''){
         if (isX) {
             setPlayer('X')
